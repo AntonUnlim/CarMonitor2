@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RepairActivity"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/repair"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/repair_title"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/repair_title"
+        android:id="@+id/rv_repair_list"
+        android:layout_above="@id/btn_add_repair"/>
+    <ImageButton
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:id="@+id/btn_add_repair"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/add_new_repair"
+        android:src="@drawable/outline_build_black_18dp"
+        android:onClick="addNewRepair"
+        android:background="@color/btnGreen"/>
+</RelativeLayout>

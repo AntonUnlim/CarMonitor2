@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/repair_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_toLeftOf="@id/repair_odometer_title"
+        android:text="Generator"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/repair_name"
+        android:id="@+id/repair_date"
+        android:text="2019-01-01"
+        android:layout_toLeftOf="@id/repair_odometer_value"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/repair_odometer_title"
+        android:text="@string/odometer"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_below="@id/repair_odometer_title"
+        android:id="@+id/repair_odometer_value"
+        android:layout_alignParentRight="true"
+        android:text="420000"/>
+</RelativeLayout>

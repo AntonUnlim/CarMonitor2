@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CarMonitor</string>
+    <string name="add_new_car_title">Add new car</string>
+    <string name="edit_car_title">Edit car</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="license_number">License number</string>
+    <string name="odometer">Odometer</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="toast_empty_car_brand">Car brand can\'t be empty!</string>
+    <string name="toast_empty_odometer">Car can\'t be save without odometer!</string>
+    <string name="toast_odometer_less_zero">Odometer can\'t be less then zero!</string>
+    <string name="toast_vin_less_17">VIN can\'t be less then 17 characters!</string>
+    <string name="attention">Attention!</string>
+    <string name="are_you_sure_delete_car">Are you sure you want to delete this car?</string>
+    <string name="are_you_sure_edit_odometer">Are you sure you want to input value less the previous?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="add_new_car">Add new car</string>
+    <string name="vin">VIN</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="repair">Repair</string>
+    <string name="consumables">Consumables</string>
+    <string name="refuel">Refuel</string>
+    <string name="add_new_repair">Add new repair</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="calendar">Calendar</string>
+    <string name="catalog_number">Catalog number</string>
+    <string name="part_price">Part price</string>
+    <string name="work_price">Work price</string>
+    <string name="are_you_sure_cancel_car">Are you sure you want to exit without saving?</string>
+</resources>
